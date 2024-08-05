@@ -1,0 +1,12 @@
+env: "local"
+
+httpClient:
+  host: "localhost"
+  port: ":8080"
+
+postgresConnect:
+  host: "localhost"
+  port: ":5432"
+  user: "user1"
+  password: "changeme"
+  dbname: "tododb"

@@ -1,0 +1,8 @@
+version: "3"
+
+tasks:
+  docker:
+    summary: "up docker swarm"
+    cmds:
+      - docker swarm init
+      - docker stack deploy -c docker/postgres/docker-compose.yml postgres
